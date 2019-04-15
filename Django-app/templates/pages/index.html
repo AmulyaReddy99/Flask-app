@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block body %} 
+	<form method="POST">
+		<input type="text" name="name">
+		<input type="email" name="email">
+		<input type="submit" class="btn btn-primary"> <!-- insert to db, set sessions and cookies -->
+	</form>
+{% endblock %}
